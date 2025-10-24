@@ -1,0 +1,5 @@
+PIDS:
+ID 0x00216 -> Byte 0 contains throttle position, always sending at - 200hz (7 Bytes)
+ID 0x00268 -> Byte 4 contains brake information -> 04 = brakes applied - 100hz (6 Bytes)
+ID 0x002A0 -> Byte 0 contains ABS Button state -> 80 = button pressed - 100hz (1 Bytes)
+ID 0x0023E -> Byte 0 contains (maybe) cooling liquid temperature
